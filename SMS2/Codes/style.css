@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'Cout';
+    src: url(couture-bld.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.bg-login-index {
+    background-image: url('Pictures/ispscbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+body {
+    background-color: aquamarine;
+    background-size: cover;
+    display: flex;
+}
+
+/* LOGIN */
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.subform {
+    width: 450px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
+}
+
+.upperform h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1.5rem 0 5rem 0;
+    text-align: center;
+}
+
+.upperform label {
+    padding-left: 16px;
+}
+
+.upperform input {
+    display: flex;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 350px;
+    background-color: #eaeeed;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn label {
+    color: white;
+    margin-left: -12px;
+}
+
+.upperform button {
+    padding: 12px 45px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    width: 60%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.button .signup {
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.signup {
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+/* SIDEBAR */
+.mid-content {
+    margin-top: 6.2rem;
+    height: 82.2vh;
+}
+
+.mid-content section {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar .logo {
+    margin: 2rem 5rem;
+}
+
+.sidebar {
+    background-color: #b6b6b6;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.288);
+    height: 82.2vh;
+    margin-bottom: 4px;
+    width: 350px;
+    min-width: 100px;
+    border-right: 1px solid black;
+}
+
+.sidebar button {
+    font-weight: 500;
+    font-size: 23px;
+    color: black;
+}
+
+.sidebar .sidenav {
+    font-weight: 500;
+    font-size: 23px;
+    color: black;
+}
+
+.sidebar .sidenav a {
+    font-size: 23px;
+}
+
+.sidebar .sidenav:hover {
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+}
+
+.sidebar a{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .dropbtn {
+    margin-left: 2.5rem;
+}
+
+.sidebar .dropbtn:hover {
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+}
+
+/* CONTENT */
+.mid-content, .main-container {
+    background-color: #615e5e;
+    width: 1920px;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 4rem;
+}
+
+.home-container .box { 
+    width: 850px;
+    height: 600px;
+    min-width: 400px;
+}
+
+.hometitle h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #005e00;
+    margin-bottom: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.homep {
+    width: 850px;
+    border-radius: 10px;
+}
+
+.homep p {
+    text-indent: 2.5rem;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homebtn button {
+    margin-left: 5rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #b6b6b6;
+}
+
+.person img {
+    width: 400px;
+    margin-top: 6rem;
+}
+
+/* CONTENT DB */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
+    gap: 3rem;
+    margin-top: -12.5rem;
+}
+
+.main-container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.main-container .dbrow {
+    margin-top: -1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardbox {
+    width: 240px;
+    height: 150px;
+    font-size: 22px;
+    
+}
+
+/* LIST CONTAINERS */
+.mid-content, .list-container {
+    background-color: #615e5e;
+    width: 1920px;
+}
+
+.list-container {
+    margin-top: -3rem;
+    padding: 90px;
+}
+
+.list-container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.list-container .alist {
+    color: #fff;
+}
+
+
+.list-container a {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+/* ADD NEW */
+.list-container .addbtn {
+    display: flex;
+}
+.list-container .addbtn a {
+    margin-left: 1rem;
+    width: 80px;
+}
+
+.list-container .addbtn .savebtn {
+    width: 80px;
+    height: 38px;
+}
+
+/* HEADER */
+header {
+    background-color: #520000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 130px;
+    margin-top: -0.5rem;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #006600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p{
+    color: #fff;
+    margin: 0;
+    font-family: 'Calibri';
+    font-size: 18px;
+   }

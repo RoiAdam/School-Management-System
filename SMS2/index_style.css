@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Cout';
+    src: url(couture-bld.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Codes/Pictures/ispscbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+section {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    bottom: 40%;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+
+.container-index h1 {
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    width: 600px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container-index p {
+    font-size: 25px;
+    width: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.access {
+    background-color: #2b2b2b;
+    border-radius: 13px;
+    width: 45%;
+    height: 10%;
+    top: 85%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.access:hover {
+    background-color: #50505050; 
+}
+
+.access:active {
+    background-color: #3f3f3f; 
+}
+
+.access h2 {
+    font-size: 18px;
+    color: white;
+    text-align: center; 
+    margin-top: 6%; 
+    font-family: 'Cout';
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #006600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p{
+    color: #fff;
+    margin: 0;
+    font-family: 'Calibri';
+    font-size: 18px;
+   }
